@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box8{
+    height: 100vh;
+}
+
+#menu{
+    top: 60px;
+}
+
+.hamburger{
+    color: #ff0000;
+    font-size: 30px;
+}
+
+.aboutfood{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;    
+    border-radius: 10px;
+}
+
+.wecook{
+    line-height: 25px;
+}
+
+.sp{
+    width: 80px;
+    height: 80px;
+    fill: #ff0000;
+}
+
+.card{
+    background-color: #ffcccb90;
+    border-radius: 10px;
+}
+
+.button{
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.shopping{
+    fill: #fff;
+    width: 30px;
+}
+
+.contactapp{
+    cursor: pointer;
+    user-select: none;
+    width: 30px;
+}
+
+.bg-lightdanger{
+    background-color: #ffcccb90;
+}
+
+.fs{
+    font-size: 15px;
+}
+
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .box1{
+        margin-left: 30px; 
+    }
+
+    .box2{
+        margin-left: 9px; 
+        height: 600px;
+    }
+
+    .box3, .box4{
+        height: 900px;
+    }
+
+    .box4{
+        margin: 0 10px 0 10px;
+    }
+
+    .box5{
+        margin-left: 8px;
+        height: 900px;
+    }
+
+    .contact-text{
+        margin-left: 30px;
+    }
+    
+    .wecook{
+        width: 350px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .box2{
+        height: 900px;
+    }
+
+    .box3, .box4{
+        height: 1060px;
+    }
+
+    .box5{
+        height: 1000px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .box1, .box2{
+        height: 900px;
+    }
+
+    .box3, .box4{
+        height: 1260px;
+    }
+
+    .box5{
+        height: 1000px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/* // Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
